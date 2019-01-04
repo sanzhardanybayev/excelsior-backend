@@ -1,0 +1,16 @@
+[ignore]
+.*/node_modules/*
+.*/front-end/*
+.*/$HOME/*
+.*/DB/*
+.*/public/*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]
