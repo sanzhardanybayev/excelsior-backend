@@ -1,6 +1,7 @@
 const cookieParser = require("cookie-parser"),
   bodyParser = require("body-parser"),
   cors = require("cors"),
+  morgan = require('morgan'),
   passport = require("./auth/index");
 
 // Create Array of middleware
