@@ -76,3 +76,4 @@ frontend/node_modules
 package-lock.json
 .idea
 backend/node_modules
+node_modules
