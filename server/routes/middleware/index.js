@@ -9,7 +9,8 @@ const middleware = [
   bodyParser.urlencoded({ extended: true }),
   bodyParser.json(),
   passport.initialize(),
-  cors()
+  cors(),
+  morgan('combined')
 ];
 
 // Add morgan on Development Mode
